@@ -1,0 +1,96 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: Firooz Yazdi"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary : Magic Leap Quality Engineer Assignment"
+      },
+      {
+        "line": 3,
+        "value": "#Background: List of steps run before each of the scenarios"
+      }
+    ],
+    "line": 5,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Verify feature element exists and fill out contact form",
+        "description": "",
+        "id": "verify-\"magic-leap-one-creator-edition”-exists-and-fill-out-contact-form;verify-feature-element-exists-and-fill-out-contact-form",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19328878069,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on Magic Leap homepage",
+            "match": {
+              "location": "MagicLeapHP.user_is_on_magicleap_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1830605305,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user fills out contact form and clicks on Submit button",
+            "match": {
+              "location": "MagicLeapHP.user_clicks_on_Submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 684047362,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the message Thanks See ya soon is displayed",
+            "match": {
+              "location": "MagicLeapHP.msg_is_displyed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2780213915,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "refresh homepage",
+            "match": {
+              "location": "MagicLeapHP.refresh_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1323537031,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user looks for Calling all developers",
+            "match": {
+              "location": "MagicLeapHP.user_looks_for_Calling_all_developers()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Verify \"Magic Leap One CREATOR EDITION” exists and fill out contact form",
+    "description": "",
+    "id": "verify-\"magic-leap-one-creator-edition”-exists-and-fill-out-contact-form",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

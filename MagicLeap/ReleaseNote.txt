@@ -1,0 +1,7 @@
+Release Note Ver. 1.0 for Magic Leap QA Engineering assigment
+
+1) This is a Java-selenium-cucumber project;it should  be imported
+2) The chromedriver.exe path should be changed in accord to  where it is on the system it will  be executed on;  this system property could  be  found on line#26 of  SeleniumFunctions.java file under src/test/java/Selenium folder of the sorce code
+3) There is also a JMeter test plan with  1000 concurrent users in its thread group
+4) The  functional  automation project  should be found  in the  Eclipse folder of the  zipped bundle. The JMeter project should be found in JMeter folder of  the bundle; also the Test Script Recorder should  be  started first  in  order  to generate a certificate  in the jmeter/bin directory to  be imported  into  the browser  of choice.  
+5) There is also an html report  in  the MPCuc/target/cucumber-reports code  tree  of  the  Eclipse project.
